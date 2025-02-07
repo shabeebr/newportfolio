@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Pacifico&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <title>Natural basket</title> 
+    <link rel="icon" href="./../resources/images/icon.png" type="image/x-icon" />
+
+
+    <link rel="icon" href="./../resources/imges/icon.png" type="image/x-icon" />
+
+    <style>
+
+    *{
+        padding:0;
+        margin:0;
+        box-sizing: border-box;
+    }
+
+    body
+    {
+        height: 100vh;
+        background: linear-gradient(to bottom right, #fcc419, #f08c00);
+    }
+
+    .card{
+        width:auto; 
+        height:80px; 
+        /* background-color: beige; */
+        background: linear-gradient(to bottom left, #fac629, #e6921d);
+        /* border: 1px solid #f08c00; */
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+
+        transform: skewX(-20deg);
+        border: 2px solid #f08c00c8;
+        box-shadow: 5px 5px 20px #00000074;
+
+        transition: ALL 0.5S;
+    }
+
+    .card:hover{
+        transform: skewX(-20deg) scale(1.08);
+        transition: all 0.5s;
+
+        box-shadow: 3px 3px 30px #00000074;
+
+    }
+
+
+    .card-details{
+        font-size: 32px;
+        font-family: 'Roboto', sans-serif;
+        color: #fff;  
+
+    }
+    .white{
+        background-color: #f1f3f5;
+    }
+    .card-logo{
+        /* transform:skewX(20deg); */
+        font-family: sans-serif;
+        color: #f1f3f5;
+        background-color: #f1f3f5;
+        padding:20px auto;
+        
+    }
+    .fix-skewX{
+        transform: skewX(20deg);
+        margin-top: -4px;
+        font-size: 60px;
+    }
+
+    .fix-single-skewX{
+        transform: skewX(20deg);
+        padding: 23px 20px;      
+    }
+
+    .dark-text{
+        color:#777;    
+    }
+    
+    .left-right-border{
+        /* transform: skewX(-20deg); */
+        border-left: 2px solid#e6921d ;
+        border-right: 2px solid#e6921d ;
+    }
+
+    .small-text{
+        font-size: 24px;
+    }
+    .details{
+        transform: skewX(20deg);
+        margin-right: 30px;
+        text-transform: uppercase;
+    }
+
+
+    .links{
+        text-decoration: none;
+        color:#f1f3f5;  
+    }
+
+    h1{
+        padding:3px;
+         background: linear-gradient(to right bottom, #fcc419, #f08c00);
+         display: block;
+        width:300px;
+        border: 2px solid #f08c00c8;
+        border-radius: 100px;
+        font-family: Kaushan Script;
+        font-size: 46px;
+        color:#ffffff;
+        text-shadow: 5px 5px 5px #f08c00;
+        text-transform: uppercase;
+        text-align: center;
+        box-shadow: 5px 5px 20px #f08c00;
+        transform: rotate(-2deg);
+        margin-top:24px 
+    }
+    .sub-heading{
+        text-align:center; 
+        color:#fff; 
+        text-transform: uppercase; 
+        font-weight: 700; 
+        font-family: Kaushan Script;
+         border-radius: 24px; 
+         margin-top: -8px; 
+         margin-left: 52px; 
+         z-index: 10;
+    }
+
+    header{
+        display: flex; 
+        flex-direction:column; 
+        justify-content: space-around; 
+        align-items: center; 
+        width:990px; 
+        margin:0 auto;
+    }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🍍natural basket🍋</h1>  
+        <div class="sub-heading">One True King</div>
+    </header>
+
+    <section style="width:950px; margin:0 auto; margin-top:85px">
+        <div style="display:flex; flex-direction: column; gap:35px">
+            <%PRODUCTS%>
+        </div>
+    </section>
+    
+</body>
+</html>

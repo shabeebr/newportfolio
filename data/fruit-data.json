@@ -1,0 +1,32 @@
+[
+    {
+        "id": 0,
+        "emoji": "🍉",
+        "fruitName": "Watermelon",
+        "noOfFruit": 12,
+        "rateOfFruit": 99
+    },
+
+    {
+        "id": 1,
+        "emoji": "🍊",
+        "fruitName": "Orange",
+        "noOfFruit": 10,
+        "rateOfFruit": 99
+    },
+    {
+        "id": 2,
+        "emoji": "🍍",
+        "fruitName": "Pinapple",
+        "noOfFruit": 8,
+        "rateOfFruit": 99
+    },
+    {
+        "id": 3,
+        "emoji": "🍋",
+        "fruitName": "Lemon",
+        "noOfFruit": 12,
+        "rateOfFruit": 99
+    }
+
+]
